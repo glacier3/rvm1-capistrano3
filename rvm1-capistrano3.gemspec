@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.license     = 'Apache 2'
 
   spec.add_dependency 'capistrano', '~>3.0'
-  spec.add_dependency 'sshkit', '>=1.3'
+  spec.add_dependency 'sshkit', '>=1.4'
   spec.add_development_dependency 'tf', '~>0.4.3'
 
   spec.files        = Dir.glob('{lib,script}/**/*.{rb,rake,sh}')
